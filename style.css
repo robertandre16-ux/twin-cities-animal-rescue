@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2E5D50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #E8F1ED;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a {
+    color: #2E5D50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #E8F1ED;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #2E5D50;
+}
+
+h3 {
+    color: #2E5D50;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+picture img {
+    width: 100%;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2E5D50;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    background-color: #2E5D50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #2E5D50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (min-width: 700px) {
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    main {
+        width: 85%;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
